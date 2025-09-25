@@ -43,7 +43,7 @@ export default function RightNav() {
 				. I enjoy working across design and code to build practical,
 				user-friendly solutions.
 			</p>
-			<div className="flex flex-nowrap items-center justify-between w-full max-w-[300px] gap-1 mt-6 px-8 overflow-hidden">
+			<div className="flex flex-nowrap items-center justify-between w-full max-w-[300px] gap-1 px-8 overflow-hidden">
 				{[
 					{
 						href: "https://github.com/WaltSchn",
