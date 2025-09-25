@@ -1,4 +1,3 @@
-"use client";
 import BackToTop from "@/app/components/BackToTop";
 import LeftNav from "@/app/components/LeftNav";
 import Footer from "@/app/components/Footer";
@@ -15,7 +14,7 @@ interface LayoutProps {
 	sections?: { id: string; label: string; level?: number }[];
 }
 
-export default function Layout({ children }: LayoutProps) {
+export default function AboutLayout({ children }: LayoutProps) {
 	return (
 		<div>
 			<SectionsProvider>
@@ -60,13 +59,6 @@ export default function Layout({ children }: LayoutProps) {
 									label: "LinkedIn",
 									icon: FaLinkedin,
 								},
-								/* 
-											{
-												href: "",
-												label: "Dribbble",
-												icon: FaDribbble,
-											},
-											*/
 								{
 									href: "mailto:walther.schneider@hotmail.com",
 									label: "Email",

@@ -27,16 +27,18 @@ export default function AboutMe() {
 			<div id="section-0">
 				<CaseSection title="Introduction">
 					<p className="mb-4 text-text">
-						I’m{" "}
-						<span className="font-bold text-primary">Walther Schneider</span>, a{" "}
-						<span className="text-primary">UX and Interactive Design</span>{" "}
-						student based in Vancouver. My focus is on designing and building
-						digital experiences that are both{" "}
-						<span className="text-primary">practical</span> and{" "}
-						<span className="text-primary">user-friendly</span>. I enjoy
-						connecting <span className="text-primary">design thinking</span>{" "}
-						with development to create solutions that actually work in real
-						life.
+						I’m
+						<span className="font-bold text-primary"> Walther Schneider</span>,
+						a<span className="text-primary"> UX designer & developer </span>
+						focused on building digital experiences that feel natural and
+						useful. I enjoy working across
+						<span className="text-primary"> design</span> and
+						<span className="text-primary"> code</span>, turning ideas into
+						solutions that are <span className="text-primary">accessible</span>,
+						<span className="text-primary"> practical</span>, and
+						<span className="text-primary"> user-friendly</span>. My goal is
+						always to bridge creativity with functionality, making technology
+						easier for people to use and enjoy.
 					</p>
 				</CaseSection>
 			</div>
