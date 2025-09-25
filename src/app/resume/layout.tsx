@@ -6,13 +6,7 @@ import Header from "@/app/components/Header";
 import ProjectIndexNav from "@/app/components/ProjectIndexNav";
 import { SectionsProvider } from "@/app/components/SectionsContext";
 
-export default function Layout({
-	children,
-	sections,
-}: {
-	children: React.ReactNode;
-	sections?: { id: string; label: string; level?: number }[];
-}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
 	return (
 		<div>
 			<SectionsProvider>
