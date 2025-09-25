@@ -9,7 +9,6 @@ import { SectionsProvider } from "@/app/components/SectionsContext";
 
 interface LayoutProps {
 	children: ReactNode;
-	sections?: { id: string; label: string; level?: number }[];
 }
 
 export default function Layout({ children }: LayoutProps) {

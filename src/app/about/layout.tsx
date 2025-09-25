@@ -3,16 +3,10 @@ import LeftNav from "@/app/components/LeftNav";
 import Footer from "@/app/components/Footer";
 import Header from "@/app/components/Header";
 import ProjectIndexNav from "@/app/components/ProjectIndexNav";
-import { ReactNode } from "react";
 import { SectionsProvider } from "@/app/components/SectionsContext";
 import Image from "next/image";
 import blackhole from "@/../public/assets/blackhole-nasa.gif";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
-
-interface LayoutProps {
-	children: ReactNode;
-	sections?: { id: string; label: string; level?: number }[];
-}
 
 export default function AboutLayout({
 	children,
