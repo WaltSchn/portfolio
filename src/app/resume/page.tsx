@@ -36,7 +36,7 @@ export default function ResumePage() {
 						</a>{" "}
 						•{" "}
 						<a
-							href="#"
+							href="https://portfolio-walther-schneider.netlify.app/home/ux"
 							className="ml-1 underline text-primary hover:text-primary/80"
 						>
 							Portfolio
