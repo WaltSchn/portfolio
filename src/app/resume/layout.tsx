@@ -4,15 +4,15 @@ import LeftNav from "@/app/components/LeftNav";
 import Footer from "@/app/components/Footer";
 import Header from "@/app/components/Header";
 import ProjectIndexNav from "@/app/components/ProjectIndexNav";
-import { ReactNode } from "react";
 import { SectionsProvider } from "@/app/components/SectionsContext";
 
-interface LayoutProps {
-	children: ReactNode;
+export default function Layout({
+	children,
+	sections,
+}: {
+	children: React.ReactNode;
 	sections?: { id: string; label: string; level?: number }[];
-}
-
-export default function Layout({ children }: LayoutProps) {
+}) {
 	return (
 		<div>
 			<SectionsProvider>
