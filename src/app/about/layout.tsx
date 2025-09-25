@@ -14,7 +14,11 @@ interface LayoutProps {
 	sections?: { id: string; label: string; level?: number }[];
 }
 
-export default function AboutLayout({ children }: LayoutProps) {
+export default function AboutLayout({
+	children,
+}: {
+	children: React.ReactNode;
+}) {
 	return (
 		<div>
 			<SectionsProvider>
