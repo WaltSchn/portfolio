@@ -31,6 +31,8 @@ export default function ResumePage() {
 						<a
 							href="https://www.linkedin.com/in/waltherschneider"
 							className="underline text-primary hover:text-primary/80"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							LinkedIn
 						</a>{" "}
@@ -38,6 +40,8 @@ export default function ResumePage() {
 						<a
 							href="https://portfolio-walther-schneider.netlify.app/home/ux"
 							className="ml-1 underline text-primary hover:text-primary/80"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							Portfolio
 						</a>

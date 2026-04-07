@@ -34,6 +34,18 @@ export default function DevPage() {
 					}
 					buttonHref="/projects/dev/nasa-apod"
 				/>
+				<Card
+					imageSrc="/assets/MokuCafe.png"
+					title="Moku Café"
+					description="Moku Café - A fictional café website built with WordPress, focused on brand identity, minimalist design, and local SEO implementation."
+					tags={["Dev", "WordPress", "Elementor", "RankMath", "SEO"]}
+					buttonText={
+						<span className="inline-flex items-center gap-2">
+							View Project <FaArrowRight className="w-3 h-3" />
+						</span>
+					}
+					buttonHref="/projects/dev/moku-cafe"
+				/>
 			</div>
 		</div>
 	);
